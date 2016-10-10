@@ -26,5 +26,12 @@ namespace WeatherApp
         {
             this.InitializeComponent();
         }
+
+        private async void Button_Click(object sender, RoutedEventArgs e)
+        {
+            RootObject myWeather = await OpenWeatherMapAgent.GetWeather(54.0, 18.0);
+
+            ResultTextBlock.Text = myWeather.name + " - " + myWeather.main.temp + " - " + myWeather.weather[0].description;
+        }
     }
 }
