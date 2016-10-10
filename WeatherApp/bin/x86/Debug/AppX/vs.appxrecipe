@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\Dom\Desktop\Windows\WeatherApp\WeatherApp\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-10T18:09:39.740</Modified>
+      <Modified>2016-10-10T18:31:12.450</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\Dom\Desktop\Windows\WeatherApp\WeatherApp\bin\x86\Debug\WeatherApp.exe">
       <PackagePath>entrypoint\WeatherApp.exe</PackagePath>
-      <Modified>2016-10-10T18:09:39.153</Modified>
+      <Modified>2016-10-10T18:31:12.181</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dom\.nuget\packages\Microsoft.CSharp\4.0.1\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -540,7 +540,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dom\Desktop\Windows\WeatherApp\WeatherApp\bin\x86\Debug\WeatherApp.xr.xml">
       <PackagePath>WeatherApp.xr.xml</PackagePath>
-      <Modified>2016-10-10T18:01:34.391</Modified>
+      <Modified>2016-10-10T18:29:35.673</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
@@ -549,11 +549,11 @@
     <AppxPackagedFile Include="C:\Users\Dom\Desktop\Windows\WeatherApp\WeatherApp\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-10-10T18:09:39.583</Modified>
+      <Modified>2016-10-10T18:29:36.633</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Dom\Desktop\Windows\WeatherApp\WeatherApp\bin\x86\Debug\Core\WeatherApp.exe">
       <PackagePath>WeatherApp.exe</PackagePath>
-      <Modified>2016-10-10T18:09:39.736</Modified>
+      <Modified>2016-10-10T18:31:12.446</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

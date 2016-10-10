@@ -8,9 +8,10 @@
     mc:Ignorable="d">
 
     <StackPanel Background="BlanchedAlmond">
-        <Button Content="Pobierz Pogodę" Click="Button_Click" ></Button>
-        <TextBlock Name="ResultTextBlock"></TextBlock>
-        <Image Name="ResultImage" Width="200" Height="200"></Image>
+        <Button x:ConnectionId='1' Content="Pobierz Pogodę"                      ></Button>
+        <TextBlock x:ConnectionId='2' Name="ResultTextBlock"></TextBlock>
+        <Image x:ConnectionId='3' Name="ResultImage" Width="200" Height="200"></Image>
     </StackPanel>
     
 </Page>
+

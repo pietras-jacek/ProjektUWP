@@ -15,7 +15,7 @@ namespace WeatherApp
         public async static Task<RootObject> GetWeather(double lat, double lon)
         {
             var http = new HttpClient();
-            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?lat=54&lon=18&units=imperial&appid=92950373bdc96ef2546a5f529d47ffbb");
+            var response = await http.GetAsync("http://api.openweathermap.org/data/2.5/weather?lat=54&lon=18&appid=92950373bdc96ef2546a5f529d47ffbb&units=metric");
             var result = await response.Content.ReadAsStringAsync();
             var serializer = new DataContractJsonSerializer(typeof(RootObject));
 
